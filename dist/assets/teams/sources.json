@@ -1,0 +1,125 @@
+{
+  "retrievedAt": "2026-10-21T09:49:23.515Z",
+  "teams": [
+    {
+      "id": "sla",
+      "name": "SK Slavia Praha",
+      "file": "assets/teams/sla.png",
+      "source": "https://www.fcb.cz/znaky/sla.png",
+      "bytes": 19889,
+      "sha256": "4807075658bc822b6652f390f33d5d61fa3934ceb105eccf151854349ce12361"
+    },
+    {
+      "id": "acs",
+      "name": "AC Sparta Praha",
+      "file": "assets/teams/acs.png",
+      "source": "https://www.fcb.cz/znaky/acs.png",
+      "bytes": 20385,
+      "sha256": "739e923d5434dd0e82971d321f0895c537f97551c9d2aeef4bb1170ec177d73f"
+    },
+    {
+      "id": "plz",
+      "name": "FC Viktoria Plzeň",
+      "file": "assets/teams/plz.png",
+      "source": "https://www.fcb.cz/znaky/plz.png",
+      "bytes": 19878,
+      "sha256": "bb7900f2193762293650f49dfecb71a43ca0eb9e908c29a2d4bc5d5acc38c4e1"
+    },
+    {
+      "id": "lis",
+      "name": "Artis Brno",
+      "file": "assets/teams/lis.png",
+      "source": "https://www.fcb.cz/znaky/lis.png",
+      "bytes": 43088,
+      "sha256": "31ac9b5beb933c8a4165c566a5ff16b517634b2c81f453c04ac24a50b35d3344"
+    },
+    {
+      "id": "olo",
+      "name": "SK Sigma Olomouc",
+      "file": "assets/teams/olo.png",
+      "source": "https://www.fcb.cz/znaky/olo.png",
+      "bytes": 21863,
+      "sha256": "85a4c1f7364a83f9478d4767ebaba9ebd6d8921a65cfa92fb3ca798bf563af49"
+    },
+    {
+      "id": "prd",
+      "name": "FK Pardubice",
+      "file": "assets/teams/prd.png",
+      "source": "https://www.fcb.cz/znaky/prd.png",
+      "bytes": 5477,
+      "sha256": "0414b6b85dda18d5efd99379b30f8067b8df181e7498cac2c578d9deef58a17f"
+    },
+    {
+      "id": "tep",
+      "name": "FK Teplice",
+      "file": "assets/teams/tep.png",
+      "source": "https://www.fcb.cz/znaky/tep.png",
+      "bytes": 67845,
+      "sha256": "17abf4600a7cdedeece62938b34e8b9a8c8af447eebaf42260f21544b6f6aa7d"
+    },
+    {
+      "id": "hrk",
+      "name": "FC Hradec Králové",
+      "file": "assets/teams/hrk.png",
+      "source": "https://www.fcb.cz/znaky/hrk.png",
+      "bytes": 42704,
+      "sha256": "725c9647d38258c0dc562464eddba3ce58356b9c6df639bf5391fb217ae0f25d"
+    },
+    {
+      "id": "jab",
+      "name": "FK Jablonec",
+      "file": "assets/teams/jab.png",
+      "source": "https://www.fcb.cz/znaky/jab.png",
+      "bytes": 8369,
+      "sha256": "b95a3e11741d7d8535b4a79b199162dc7aefa233009a13fab42798ce8c39613a"
+    },
+    {
+      "id": "mlb",
+      "name": "FK Mladá Boleslav",
+      "file": "assets/teams/mlb.png",
+      "source": "https://www.fcb.cz/znaky/mlb.png",
+      "bytes": 16503,
+      "sha256": "40313d0682f540e77119b7ba8ce96dd99e1488d892ce05d6d6d7b0b5a4bbf5a1"
+    },
+    {
+      "id": "slo",
+      "name": "1. FC Slovácko",
+      "file": "assets/teams/slo.png",
+      "source": "https://www.fcb.cz/znaky/slo.png",
+      "bytes": 27119,
+      "sha256": "9d322fac7e0a8056655ee82e1fc386535a2cb81cdd71993a210995c26d58e8b4"
+    },
+    {
+      "id": "boh",
+      "name": "Bohemians Praha 1905",
+      "file": "assets/teams/boh.png",
+      "source": "https://www.fcb.cz/znaky/boh.png",
+      "bytes": 19549,
+      "sha256": "3f9ee2fcf34f4ed7561117a1b0cdd97c284c15992250bbc3ca1d8798b04ce6ce"
+    },
+    {
+      "id": "lib",
+      "name": "FC Slovan Liberec",
+      "file": "assets/teams/lib.png",
+      "source": "https://www.fcb.cz/znaky/lib.png",
+      "bytes": 62593,
+      "sha256": "c136f10ffa50829c3cbd474308fa974bacf0695b33ebce0e549d15603400644d"
+    },
+    {
+      "id": "brn",
+      "name": "FC Zbrojovka Brno",
+      "file": "assets/teams/brn.svg",
+      "source": "https://www.fcb.cz/znaky/brn.svg",
+      "bytes": 25299,
+      "sha256": "9ceac1d61cd3052555c0fef3672f8074269187cb6f1cd09bab9730af130f53ef"
+    },
+    {
+      "id": "zln",
+      "name": "FC Zlín",
+      "file": "assets/teams/zln.png",
+      "source": "https://www.fcb.cz/znaky/zln.png",
+      "bytes": 274834,
+      "sha256": "c56415866f6aed02652dae0eb40ac5a0885531e2cff8fe3e49e43585439277c0"
+    }
+  ]
+}

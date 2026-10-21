@@ -1,0 +1,15 @@
+{
+  "name": "banik-vip",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prototyp VIP tipovací soutěže FC Baník Ostrava",
+  "scripts": {
+    "check": "node --check dist/app.js && node --check worker.mjs && node verify.cjs && node verify-live.mjs",
+    "content:sync": "python scripts/sync-club-content.py",
+    "logos:sync": "node scripts/sync-team-logos.cjs",
+    "intro:render": "python scripts/render-intro.py",
+    "build": "npm run logos:sync",
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy"
+  }
+}
