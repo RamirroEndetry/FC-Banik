@@ -70,7 +70,7 @@ Workflow `.github/workflows/pages.yml` při každém pushi do `main` publikuje s
 
 ## Cloudflare
 
-`wrangler.jsonc` připravuje Worker `banik-vip` s obsluhou `/api/live` a statickými soubory. V Cloudflare připojte GitHub repozitář přes Workers Builds (sestavení `npm run build`, nasazení `npx wrangler deploy`), nebo po `npx wrangler login` spusťte `npm run deploy`.
+`wrangler.jsonc` připravuje Worker `fc-banik` s obsluhou `/api/live` a statickými soubory. V Cloudflare připojte GitHub repozitář přes Workers Builds (sestavení `npm run build`, nasazení `npx wrangler deploy`), nebo po `npx wrangler login` spusťte `npm run deploy`.
 
 ## Panel na výšku a spořič s intro videem
 

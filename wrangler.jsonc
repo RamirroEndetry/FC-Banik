@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "banik-vip",
+  "name": "fc-banik",
   "main": "worker.mjs",
   "compatibility_date": "2026-10-21",
   "assets": {
