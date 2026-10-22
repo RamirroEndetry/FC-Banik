@@ -50,7 +50,8 @@ Fcb.cz odkazuje na živé přenosy onlajny.com. Stránka zápasu (např. https:/
 
 - `worker.mjs` (Cloudflare Worker) obsluhuje `GET /api/live?matchId=plz&onlajny=533874`: stáhne stránku, převede ji funkcí `LiveMatch.fromOnlajny` (`dist/live.js`) na snapshot `{matchId, home, away, phase, clock, updatedAt, final}` a vrátí JSON. Ověřeno proti skutečným stránkám (odehraný Baník–Sparta 0:0 → `fulltime`, nadcházející Plzeň → `scheduled`).
 - Kiosek se po výkopu každých 15 s ptá na `api/live` (relativně, tedy u Workeru, který kiosek servíruje). Když kiosek běží jinde (např. GitHub Pages) a Worker je nasazený zvlášť, stačí do `<body>` v `dist/index.html` doplnit `data-live-endpoint="https://<worker>.workers.dev/api/live"`.
-- Bez Workeru (čisté GitHub Pages) kiosek oznámí „Živé skóre tu není k dispozici. Výsledek po zápase zapíše obsluha.“ a ptá se jen jednou za minutu. Vše ostatní funguje.
+- Nasazený Worker: https://fc-banik.jiri-43a.workers.dev (kiosek tam běží celý). `dist/index.html` má `data-live-endpoint="https://fc-banik.jiri-43a.workers.dev/api/live"`, takže živé skóre funguje i na GitHub Pages.
+- Bez Workeru kiosek oznámí „Živé skóre tu není k dispozici. Výsledek po zápase zapíše obsluha.“ a ptá se jen jednou za minutu. Vše ostatní funguje.
 - Stav „konec“ výsledek **zapíše automaticky** (`results[matchId].source = "onlajny.com"`) a spustí vyhlášení s pohárem. Odložený nebo zrušený zápas se ohlásí jako chyba, výsledek se nezapíše. Výpadek zdroje zruší průběžné pořadí, které se obnoví při dalším úspěšném dotazu.
 - Každý zápas v `dist/data.js` nese `onlajny` = id přenosu (z rozpisu na fcb.cz). Přesné názvy stavů během živého zápasu (např. „1. poločas“, „poločas“) se ověří při nejbližším utkání; adaptér je tolerantní a bez názvu stavu rozhoduje podle minuty.
 
